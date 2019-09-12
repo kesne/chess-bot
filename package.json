@@ -1,0 +1,19 @@
+{
+  "name": "chess-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kesne/chess-bot.git",
+  "author": "Jordan Gensler <jgensler@netflix.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node-dev index"
+  },
+  "dependencies": {
+    "@slack/rtm-api": "^5.0.2",
+    "@slack/web-api": "^5.1.0",
+    "chess.js": "^0.10.2"
+  },
+  "devDependencies": {
+    "node-dev": "^4.0.0"
+  }
+}
